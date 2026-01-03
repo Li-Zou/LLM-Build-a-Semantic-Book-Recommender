@@ -1,5 +1,15 @@
-# LLM-Build-a-Semantic-Book-Recommender
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/pm25/showlit">
+    <img src="book_recommender.png" alt="Logo" width="640">
+  </a>
+  <h3 align="center">Build a semantic book recommender with LLMs</h3>
+</div>
 
+
+
+## 1️⃣. Instructions
 
 This repo contains all of the code to build a semantic book recommender with LLMs. There are five components to this tutorial:
 * Text data cleaning (code in the notebook `1-data_exploration.ipynb`)
@@ -23,8 +33,8 @@ This project was initially created in Python 3.11. In order to run the project, 
 * [notebook](https://pypi.org/project/notebook/)
 * [ipywidgets](https://pypi.org/project/ipywidgets/)
 
-A requirements.txt file containing all the project dependencies is provided as part of this repo.
+In order to create your vector database, you'll need to create a .env file in your root directory containing your OpenAI API key.
 
-In order to create your vector database, you'll need to create a .env file in your root directory containing your OpenAI API key. Instructions on how to do this are part of the tutorial.
+The data for this project can be downloaded from Kaggle. 
 
-The data for this project can be downloaded from Kaggle. Instructions on how to do this are also in the repo.
+## 2️⃣.  The final app
