@@ -48,6 +48,8 @@ The data for this project can be downloaded from Kaggle.
 - We can choose emotion tones in **Select an emotional tone**. And then press **Find recommendations**. Then the recommender system will provide its recommendation to us.
 ![](data/book_rec2.png)
 
+- the video **Book_recommender.mp4** shows more details about the final recommender app.
+
 ## 3️⃣. Learning resources for this project
 * [LLM Course](https://www.youtube.com/watch?v=Q7mS1VHm3Yw&t=155s)
 * [LLM by 3Blue1Brown](https://www.youtube.com/watch?v=LPZh9BOjkQs&t=10s)
