@@ -38,3 +38,18 @@ In order to create your vector database, you'll need to create a .env file in yo
 The data for this project can be downloaded from Kaggle. 
 
 ## 2️⃣.  The final app
+
+- We can choose **Fiction** and **Nonfiction** in **Select a category**. And then press **Find recommendations**. Then the recommender system will provide its recommendation to us.
+![](data/book_rec.png)
+
+- We can also enter a query in  **Please enter a description of a book**. And then press **Find recommendations**.
+![](book_recommender.png)
+
+- We can choose emotion tones in **Select an emotional tone**. And then press **Find recommendations**. Then the recommender system will provide its recommendation to us.
+![](data/book_rec2.png)
+
+## 3️⃣. Learning resources for this project
+* [LLM Course](https://www.youtube.com/watch?v=Q7mS1VHm3Yw&t=155s)
+* [LLM by 3Blue1Brown](https://www.youtube.com/watch?v=LPZh9BOjkQs&t=10s)
+* [Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g)
+* [Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI&t=119s)
