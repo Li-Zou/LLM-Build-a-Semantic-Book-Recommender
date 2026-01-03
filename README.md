@@ -1,12 +1,12 @@
 # LLM-Build-a-Semantic-Book-Recommender
 
 
-This repo contains all of the code to complete the freeCodeCamp course, "Build a Semantic Book Recommender with LLMs – Full Course". There are five components to this tutorial:
-* Text data cleaning (code in the notebook `data-exploration.ipynb`)
-* Semantic (vector) search and how to build a vector database (code in the notebook `vector-search.ipynb`). This allows users to find the most similar books to a natural language query (e.g., "a book about a person seeking revenge").
-* Doing text classification using zero-shot classification in LLMs (code in the notebook `text-classification.ipynb`). This allows us to classify the books as "fiction" or "non-fiction", creating a facet that users can filter the books on. 
-* Doing sentiment analysis using LLMs and extracting the emotions from text (code in the notebook `sentiment-analysis.ipynb`). This will allow users to sort books by their tone, such as how suspenseful, joyful or sad the books are.
-* Creating a web application using Gradio for users to get book recommendations (code in the file `gradio-dashboard.py`).
+This repo contains all of the code to build a semantic book recommender with LLMs. There are five components to this tutorial:
+* Text data cleaning (code in the notebook `1-data_exploration.ipynb`)
+* Semantic (vector) search and how to build a vector database (code in the notebook `2-Vector search.ipynb`). This allows users to find the most similar books to a natural language query (e.g., "a book about a person seeking revenge").
+* Doing text classification using zero-shot classification in LLMs (code in the notebook `3-Text_classification.ipynb`). This allows us to classify the books as "fiction" or "non-fiction", creating a facet that users can filter the books on. 
+* Doing sentiment analysis using LLMs and extracting the emotions from text (code in the notebook `4-sentiment_analysis.ipynb`). This will allow users to sort books by their tone, such as how suspenseful, joyful or sad the books are.
+* Creating a web application using Gradio for users to get book recommendations (code in the file `5-gradio-dashboard.ipynb`).
 
 This project was initially created in Python 3.11. In order to run the project, the following dependencies are required:
 * [kagglehub](https://pypi.org/project/kagglehub/)
@@ -17,6 +17,7 @@ This project was initially created in Python 3.11. In order to run the project, 
 * [langchain-community](https://pypi.org/project/langchain-community/)
 * [langchain-opencv](https://pypi.org/project/langchain-opencv/)
 * [langchain-chroma](https://pypi.org/project/langchain-chroma/)
+* [langchain-openai](https://pypi.org/project/langchain-openai/)
 * [transformers](https://pypi.org/project/transformers/)
 * [gradio](https://pypi.org/project/gradio/)
 * [notebook](https://pypi.org/project/notebook/)
